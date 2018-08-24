@@ -42,7 +42,7 @@ module ServerCleanup
 
     option :keep,
      :short => "-k",
-     :long => "--keep",
+     :long => "--keep N",
      :description => "Keep the last N versions. Default is 1, latest only",
      :default => 1
 
